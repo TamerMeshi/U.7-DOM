@@ -1,0 +1,80 @@
+body{
+    width: 900x;
+   height: 700px;
+    margin: 0;
+    padding: 0;
+   background-image: url(img/1647467288_10-kartinkin-net-p-pergament-kartinki-10.jpg);
+   background-repeat: no-repeat;
+   justify-content: center;
+   background-size: 700px;
+   background-position: center;
+   background-color: rgb(254, 246, 246);
+   
+   } 
+   .container{
+      
+   
+     box-shadow: 3%;
+     text-align: center;
+     margin-top: 100px;
+     margin-left: 50px;
+     list-style-type:none; 
+   
+   }
+   .chapters{
+       list-style-type: none;
+       font-family: 'Dancing Script', cursive;
+       font-family: 'Ephesis', cursive;
+       font-size: 25px;
+       color: rgb(93, 41, 4);
+   
+   }
+   .list-color{
+       color: rgb(197, 69, 37);
+   
+   }
+   
+   h1{
+      font-family:'Dancing Script', cursive;
+      font-family: 'Ephesis', cursive;;
+      font-size: 70px;
+     
+   }
+   .btn1{
+        
+           display: inline-block;
+           color: rgb(112, 49, 49);
+           text-decoration: none;
+           padding: .5em 2em;
+           outline: none;
+           border-width: 2px 0;
+           border-style: solid none;
+           border-color: #FDBE33 #000 #D77206;
+           border-radius: 6px;
+           background: linear-gradient(#F3AE0F, #E38916) #E38916;
+           
+         
+         a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+         a.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+   
+   }
+   .cls{
+        display: inline-block;
+           color: rgb(112, 49, 49);
+           text-decoration: none;
+           padding: .5em 2em;
+           outline: none;
+           border-width: 2px 0;
+           border-style: solid none;
+           border-color: #FDBE33 #000 #D77206;
+           border-radius: 6px;
+           background: linear-gradient(#F3AE0F, #E38916) #E38916;
+          
+         
+         a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+         a.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+   }
+    
+    
+    
+    
