@@ -1,15 +1,20 @@
 const createChapter = (name , page, ulList, i ) =>{
     const tag = document.createElement('li')
     tag.innerText = `${name}.......................................${page}`
-    
+     tag.addEventListener('click', function(){
+        console.log(this.innerText)
+     })
     if(i % 2 !== 0){
         tag.classList.add('list-color')
     }
+    
+
     ulList.append(tag)
     
     }
-    
-    const chapter= [  {name: 'Chapter 1', page: 1},
+     
+    const chapter= [  
+                      {name: 'Chapter 1', page: 1},
                       {name: 'Chapter 2', page: 4},
                       {name: 'Chapter 3', page: 9},
                       {name: 'Chapter 4', page: 12},
@@ -24,32 +29,28 @@ const createChapter = (name , page, ulList, i ) =>{
     
     const ulChapters = document.querySelector('.chapters')
     
-    chapter.forEach(({name, page}, i) => {
+   const chp =  chapter.forEach(({name, page}, i) => {
         createChapter(name,page,ulChapters, i)
+        
     }
     )
     
     const cls = document.querySelector('.cls')
-    const btn = document.querySelector('.btn1')
     
-    
-    let elObj = 0;
-    btn.addEventListener('click', function () {
-        
-        if (elObj < chapter.length) {
-            chapter.innerText += chapter[elObj].text 
-            elObj = elObj + 1;
-             console.log(chapter[elObj])
-          } 
-          
-      })
-      
-      cls.addEventListener('click', function () {
-        
+  
+    cls.addEventListener('click', function () {  
        document.querySelector('.chapters').hidden = !document.querySelector('.chapters').hidden
+
           
       })
-    
+
+      
+      
+       
+     
+
+      
+       
     
     
     
